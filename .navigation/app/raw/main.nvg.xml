@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.thisdoesnotexist.helpinghands.CharityList"/>
+      <point      
+        x = "1620"      
+        y = "92"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.thisdoesnotexist.helpinghands.DonationComplete"/>
+      <point      
+        x = "4801"      
+        y = "1512"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.thisdoesnotexist.helpinghands.Menu"/>
+      <point      
+        x = "588"      
+        y = "92"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.thisdoesnotexist.helpinghands.CharityDonation"/>
+      <point      
+        x = "3764"      
+        y = "100"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.thisdoesnotexist.helpinghands.NeighborhoodAlliance"/>
+      <point      
+        x = "2548"      
+        y = "62"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.thisdoesnotexist.helpinghands.DonateToUs"/>
+      <point      
+        x = "2570"      
+        y = "1513"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.thisdoesnotexist.helpinghands.ConfirmDonation"/>
+      <point      
+        x = "3742"      
+        y = "1533"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>
