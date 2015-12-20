@@ -20,7 +20,8 @@
         <activity android:name=".DonateToUs" />
         <activity android:name=".ConfirmDonation" />
         <activity android:name=".DonationComplete" />
-        <activity android:name=".CharityDonation"></activity>
+        <activity android:name=".CharityDonation" />
+        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>

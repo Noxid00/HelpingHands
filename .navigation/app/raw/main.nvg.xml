@@ -6,58 +6,66 @@
     <statePointEntry>
       <state      
         class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.thisdoesnotexist.helpinghands.MainActivity"/>
+      <point      
+        x = "6256"      
+        y = "705"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
         className = "com.example.thisdoesnotexist.helpinghands.CharityList"/>
       <point      
-        x = "1620"      
-        y = "92"/>
+        x = "1616"      
+        y = "80"/>
     </statePointEntry>
     <statePointEntry>
       <state      
         class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
         className = "com.example.thisdoesnotexist.helpinghands.DonationComplete"/>
       <point      
-        x = "4801"      
-        y = "1512"/>
+        x = "4780"      
+        y = "1576"/>
     </statePointEntry>
     <statePointEntry>
       <state      
         class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
         className = "com.example.thisdoesnotexist.helpinghands.Menu"/>
       <point      
-        x = "588"      
-        y = "92"/>
+        x = "580"      
+        y = "82"/>
     </statePointEntry>
     <statePointEntry>
       <state      
         class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
         className = "com.example.thisdoesnotexist.helpinghands.CharityDonation"/>
       <point      
-        x = "3764"      
-        y = "100"/>
+        x = "3720"      
+        y = "40"/>
     </statePointEntry>
     <statePointEntry>
       <state      
         class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
         className = "com.example.thisdoesnotexist.helpinghands.NeighborhoodAlliance"/>
       <point      
-        x = "2548"      
-        y = "62"/>
+        x = "2552"      
+        y = "60"/>
     </statePointEntry>
     <statePointEntry>
       <state      
         class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
         className = "com.example.thisdoesnotexist.helpinghands.DonateToUs"/>
       <point      
-        x = "2570"      
-        y = "1513"/>
+        x = "2572"      
+        y = "1608"/>
     </statePointEntry>
     <statePointEntry>
       <state      
         class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
         className = "com.example.thisdoesnotexist.helpinghands.ConfirmDonation"/>
       <point      
-        x = "3742"      
-        y = "1533"/>
+        x = "3766"      
+        y = "1618"/>
     </statePointEntry>
   </locations>
 </navigationModel>

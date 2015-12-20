@@ -20,6 +20,12 @@ public class NeighborhoodAlliance extends AppCompatActivity {
             }
 
         });
+        findViewById(R.id.button13).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(NeighborhoodAlliance.this, CharityDonation.class));
+            }
+        });
     }
 }
 
