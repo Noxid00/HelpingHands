@@ -12,16 +12,18 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Connecting you with those who need it most"
-        android:textSize="18dp" />
+        android:text="Connecting you with those who need it the most"
+        android:textSize="28dp"
+        android:background="#585151" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="View Charities"
+        android:text="View charity list"
         android:id="@+id/button"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
+
 </RelativeLayout>

@@ -9,12 +9,10 @@ import java.io.*;
 public class CharityList extends AppCompatActivity {
 
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-                setContentView(R.layout.activity_charity_list);
+        setContentView(R.layout.activity_charity_list);
         findViewById(R.id.button3).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -48,6 +46,12 @@ public class CharityList extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(CharityList.this, DonateToUs.class));
+            }
+        });
+        findViewById(R.id.button2).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(CharityList.this, NeighborhoodAlliance.class));
             }
         });
     }

@@ -18,9 +18,6 @@
         <activity android:name=".CharityList" />
         <activity android:name=".NeighborhoodAlliance" />
         <activity android:name=".DonateToUs" />
-        <activity android:name=".ConfirmDonation" />
-        <activity android:name=".DonationComplete" />
-        <activity android:name=".CharityDonation" />
         <activity android:name=".MainActivity"></activity>
     </application>
 
