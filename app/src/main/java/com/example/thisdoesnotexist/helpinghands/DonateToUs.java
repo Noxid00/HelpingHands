@@ -26,5 +26,11 @@ public class DonateToUs extends AppCompatActivity {
                 startActivity(browserIntent);
             }
         });
+        findViewById(R.id.button7).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(DonateToUs.this, ThanksForYourDonationPage.class));
+            }
+        });
     }
 }

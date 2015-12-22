@@ -1,6 +1,7 @@
 package com.example.thisdoesnotexist.helpinghands;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -19,11 +20,20 @@ public class NeighborhoodAlliance extends AppCompatActivity {
                 startActivity(new Intent(NeighborhoodAlliance.this, CharityList.class));
             }
 
+
         });
-        findViewById(R.id.button13).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.button8).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(NeighborhoodAlliance.this, CharityDonation.class));
+                startActivity(new Intent(NeighborhoodAlliance.this, CharityList.class));
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://Paypal.Me/SeanWatterson"));
+                startActivity(browserIntent);
+            }
+        });
+        findViewById(R.id.button8).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(NeighborhoodAlliance.this, ThanksForYourDonationPage.class));
             }
         });
     }
