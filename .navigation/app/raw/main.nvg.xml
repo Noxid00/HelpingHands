@@ -8,8 +8,8 @@
         class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
         className = "com.example.thisdoesnotexist.helpinghands.ThanksForYourDonationPage"/>
       <point      
-        x = "4443"      
-        y = "795"/>
+        x = "4420"      
+        y = "774"/>
     </statePointEntry>
     <statePointEntry>
       <state      
@@ -72,8 +72,8 @@
         class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
         className = "com.example.thisdoesnotexist.helpinghands.DonateToUs"/>
       <point      
-        x = "2595"      
-        y = "1605"/>
+        x = "2582"      
+        y = "1594"/>
     </statePointEntry>
     <statePointEntry>
       <state      
